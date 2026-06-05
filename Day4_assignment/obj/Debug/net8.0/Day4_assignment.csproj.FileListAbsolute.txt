@@ -1,0 +1,14 @@
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\Day4_assignment.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\Day4_assignment.AssemblyInfoInputs.cache
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\Day4_assignment.AssemblyInfo.cs
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\Day4_assignment.csproj.CoreCompileInputs.cache
+C:\Users\User\Downloads\demo\Day4_assignment\bin\Debug\net8.0\Day4_assignment.exe
+C:\Users\User\Downloads\demo\Day4_assignment\bin\Debug\net8.0\Day4_assignment.deps.json
+C:\Users\User\Downloads\demo\Day4_assignment\bin\Debug\net8.0\Day4_assignment.runtimeconfig.json
+C:\Users\User\Downloads\demo\Day4_assignment\bin\Debug\net8.0\Day4_assignment.dll
+C:\Users\User\Downloads\demo\Day4_assignment\bin\Debug\net8.0\Day4_assignment.pdb
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\Day4_assignment.dll
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\refint\Day4_assignment.dll
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\Day4_assignment.pdb
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\Day4_assignment.genruntimeconfig.cache
+C:\Users\User\Downloads\demo\Day4_assignment\obj\Debug\net8.0\ref\Day4_assignment.dll
