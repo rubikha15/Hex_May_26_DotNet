@@ -1,0 +1,358 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f7fc;
+  color: #0c1120;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+.page {
+  max-width: 1140px;
+  margin: 0 auto;
+  background: #f5f7fc;
+  min-height: 100vh;
+}
+
+header {
+  height: 64px;
+  background: #0c1120;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 32px;
+}
+
+.logo {
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  gap: 40px;
+}
+
+nav a {
+  color: #a9c2ff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.hero {
+  position: relative;
+  text-align: center;
+  padding: 58px 20px 36px;
+  color: white;
+  background: radial-gradient(circle at 72% 0%, #3b45c7 0%, #16203a 45%, #0c1120 100%);
+  overflow: hidden;
+}
+
+.eyebrow {
+  letter-spacing: 5px;
+  font-size: 13px;
+  color: #a9c2ff;
+  font-weight: 600;
+}
+
+h1 {
+  margin: 8px 0;
+  font-size: clamp(32px, 6vw, 52px);
+  line-height: 1;
+}
+
+.hero p {
+  color: #dbe5f0;
+}
+
+button {
+  border: 0;
+  background: #4b4fd6;
+  color: white;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 14px 32px;
+  cursor: pointer;
+  box-shadow: 0 10px 25px rgba(75, 79, 214, 0.35);
+}
+
+.stars span {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  background: white;
+  border-radius: 50%;
+}
+
+.stars span:nth-child(1) { top: 55px; left: 90px; }
+.stars span:nth-child(2) { top: 95px; left: 220px; }
+.stars span:nth-child(3) { top: 48px; right: 300px; }
+.stars span:nth-child(4) { top: 92px; right: 80px; }
+.stars span:nth-child(5) { top: 42px; left: 370px; }
+
+main {
+  padding: 34px 56px 70px;
+}
+
+section {
+  margin-bottom: 36px;
+}
+
+h2 {
+  margin: 0 0 14px;
+  font-size: 24px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+article {
+  background: white;
+  border: 1px solid #dde5f0;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-head span {
+  background: #4b4fd6;
+  color: white;
+  border-radius: 20px;
+  font-size: 11px;
+  padding: 4px 10px;
+}
+
+h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.date {
+  color: #4b4fd6;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+article p {
+  color: #34405a;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  overflow: hidden;
+}
+
+th {
+  background: #16203a;
+  color: white;
+  text-align: left;
+  padding: 13px 22px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+td {
+  padding: 13px 22px;
+}
+
+tbody tr:nth-child(even) {
+  background: #edf1f9;
+}
+
+form {
+  max-width: 480px;
+  background: white;
+  border: 1px solid #dde5f0;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+input,
+select {
+  width: 100%;
+  height: 42px;
+  border: 1px solid #c9d4e5;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 0 12px;
+  font: inherit;
+}
+
+form button {
+  width: 100%;
+}
+
+footer {
+  background: #0c1120;
+  color: #8fa0bd;
+  text-align: center;
+  padding: 24px;
+  font-size: 13px;
+}
+
+footer p {
+  margin: 4px;
+}
+
+@media (max-width: 640px) {
+  .page {
+    max-width: 375px;
+  }
+
+  header {
+    height: 58px;
+    padding: 0 16px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hero {
+    padding: 52px 20px 28px;
+  }
+
+  main {
+    padding: 18px 16px 54px;
+  }
+
+  .cards {
+    grid-template-columns: 1fr;
+  }
+
+  article {
+    padding: 16px;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+
+  form {
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+}
+/* =========================
+   MOBILE RESPONSIVE DESIGN
+   ========================= */
+
+@media screen and (max-width: 768px) {
+
+  header {
+    flex-direction: column;
+    padding: 15px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .hero {
+    padding: 50px 20px;
+  }
+
+  .hero h1 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .hero p {
+    font-size: 14px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  article {
+    width: 100%;
+  }
+
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input,
+  select,
+  button {
+    width: 100%;
+  }
+
+  main {
+    padding: 20px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+
+/* Extra small phones */
+@media screen and (max-width: 480px) {
+
+  .hero h1 {
+    font-size: 1.7rem;
+  }
+
+  .eyebrow {
+    font-size: 11px;
+    letter-spacing: 2px;
+  }
+
+  button {
+    padding: 12px 18px;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    font-size: 13px;
+  }
+
+}
