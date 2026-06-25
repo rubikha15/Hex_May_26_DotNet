@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Departures Board</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <main class="container">
+    <header class="top-header">
+      <div>
+        <p class="live">● LIVE · SKY HARBOR INTL · TERMINAL 4</p>
+        <h1>DEPARTURES</h1>
+      </div>
+
+      <div class="clock-box">
+        <div id="clock">00:00:00</div>
+        <small>LOCAL TIME · GMT+7</small>
+      </div>
+    </header>
+
+    <!-- Board must start empty -->
+    <section class="board" id="board"></section>
+
+    <div class="controls">
+      <button id="addBtn">+ Add Departure</button>
+      <button id="resetBtn">Reset Board</button>
+      <p id="counter"></p>
+    </div>
+
+    <div class="legend">
+      <span><b class="green"></b> ON TIME</span>
+      <span><b class="yellow"></b> BOARDING</span>
+      <span><b class="orange"></b> DELAYED</span>
+      <span><b class="red"></b> GATE CLOSED</span>
+      <span><b class="gray"></b> DEPARTED</span>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
